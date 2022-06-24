@@ -43,7 +43,9 @@ endmodule
 
   
            
-//horner's algorithm
+//horner's algorithm for 
+//x = (5, 128, 1023)
+//y = (6, 4096, 5)
 
 module Horn_32(input [31:0] x1,x2,x3,
                input [31:0] y1,y2,y3,
